@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khám phá chi tiết các di tích lịch sử nổi tiếng tại Lạng Sơn: Ải Chi Lăng, Chùa Tam Thanh, Thành Nhà Mạc, Nàng Tô Thị, Động Nhị Thanh và Chợ Kỳ Lừa.">
+  <title>Di Tích Lịch Sử Lạng Sơn - Hành Trình Ngàn Năm Văn Hiến</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Liên kết Bỏ qua (Skip to Main Content) -->
+  <a href="#main-content" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="site-header">
+    <div class="header-glow" aria-hidden="true"></div>
+    <div class="header-inner">
+      <a href="index.html" class="site-logo" aria-label="Trang chủ Di tích Lạng Sơn">
+        <span class="logo-icon" aria-hidden="true">🏛️</span>
+        <span class="logo-text">
+          Lạng Sơn
+          <span class="logo-sub">Di tích &amp; Văn hóa</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <ul>
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="ditich.html" class="active">Di Tích</a></li>
+          <li><a href="lienhe.html">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" aria-label="Tiêu đề trang Di tích">
+    <img
+      src="images/langson-panorama.png"
+      alt="Phong cảnh toàn cảnh Lạng Sơn với núi non trùng điệp trong ánh hoàng hôn"
+      class="hero-bg"
+      width="1920"
+      height="1080"
+    >
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1>Di Tích Lịch Sử Lạng Sơn</h1>
+      <p class="hero-tagline">✦ Hành trình ngàn năm văn hiến nơi Xứ Lạng ✦</p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- ẢI CHI LĂNG - PHẦN NỔI BẬT -->
+    <section class="section section-warm" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="featured-ditich">
+          <div class="featured-ditich-img reveal-left">
+            <!-- HÌNH ẢNH 1: Ải Chi Lăng -->
+            <img
+              src="images/ai-chi-lang.png"
+              alt="Ải Chi Lăng - con đường mòn uốn lượn giữa hai vách núi đá vôi cao ngất, sương mù bao phủ thung lũng tạo bầu không khí huyền bí của chiến trường xưa"
+              class="styled-img"
+              width="600"
+              height="400"
+            >
+          </div>
+          <div class="featured-ditich-content reveal-right">
+            <span class="section-label">Di tích Quốc gia đặc biệt</span>
+            <h2 id="featured-heading">Ải Chi Lăng — Chiến Trường Huyền Thoại</h2>
+            <p class="accent-text">"Muốn vào đất Việt, hãy bước qua thi thể ta trước!"</p>
+            <p>
+              Ải Chi Lăng nằm ở huyện Chi Lăng, là một thung lũng dài khoảng 4km, rộng hơn 1km, nằm gọn giữa
+              hai dãy núi đá vôi sừng sững. Đây chính là "bức tường thành thiên nhiên" mà suốt hàng ngàn năm lịch sử,
+              quân dân Đại Việt đã nhiều lần biến nơi đây thành mồ chôn của các đạo quân xâm lược phương Bắc.
+            </p>
+            <p>
+              Nổi tiếng nhất là trận đánh năm 1427, khi nghĩa quân Lam Sơn dưới sự chỉ huy của Lê Lợi đã phục kích
+              tiêu diệt đạo viện binh của Liễu Thăng, chém đầu tướng giặc ngay tại ải hiểm này, góp phần kết thúc
+              20 năm đô hộ của nhà Minh. Chiến thắng vang dội ấy đã đi vào sử sách như một trong những trang sử hào hùng
+              nhất của dân tộc Việt Nam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DANH SÁCH DI TÍCH (CSS Grid) -->
+    <section class="section" aria-labelledby="ditich-grid-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Kho tàng di sản</span>
+          <h2 class="section-title" id="ditich-grid-heading">Các Di Tích Trọng Điểm</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">
+            Mỗi di tích là một trang sử sống, nơi quá khứ hào hùng giao hòa cùng vẻ đẹp thiên nhiên tuyệt mỹ.
+          </p>
+        </div>
+
+        <!-- 3. BỐ CỤC CSS GRID: display: grid với 2 cột -->
+        <div class="ditich-grid reveal-stagger">
+
+          <!-- DI TÍCH 1: Chùa Tam Thanh -->
+          <article class="ditich-card reveal">
+            <div class="ditich-card-img-wrap">
+              <!-- HÌNH ẢNH 2: Chùa Tam Thanh -->
+              <img
+                src="images/chua-tam-thanh.png"
+                alt="Chùa Tam Thanh - ngôi chùa cổ nằm trong hang đá vôi tự nhiên, tượng Phật đá trang nghiêm dưới ánh sáng huyền ảo xuyên qua vòm đá"
+                class="ditich-card-img"
+                width="600"
+                height="280"
+              >
+            </div>
+            <div class="ditich-card-content">
+              <span class="ditich-card-tag">Di tích Quốc gia</span>
+              <h3>Chùa Tam Thanh</h3>
+              <p>
+                Tọa lạc trong lòng núi đá vôi ở phường Tam Thanh, thành phố Lạng Sơn, Chùa Tam Thanh là một trong
+                những ngôi chùa hang cổ kính và linh thiêng nhất Việt Nam. Ngôi chùa được xây dựng từ thời nhà Lê
+                (thế kỷ XV), nằm sâu trong một hang đá tự nhiên rộng lớn.
+              </p>
+              <p>
+                Điểm nhấn đặc biệt là pho tượng Phật A Di Đà được tạc trực tiếp trên vách đá, cao gần 1 mét,
+                mang phong cách nghệ thuật điêu khắc thời Lê tinh xảo. Bên trong hang còn lưu giữ nhiều bút tích
+                thơ văn của các danh sĩ qua nhiều triều đại, khắc trên vách đá như những trang thư pháp sống.
+              </p>
+              <div class="ditich-card-meta">
+                <span>📍 Phường Tam Thanh, TP. Lạng Sơn</span>
+                <span>🕐 Thế kỷ XV</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DI TÍCH 2: Thành Nhà Mạc -->
+          <article class="ditich-card reveal">
+            <div class="ditich-card-img-wrap">
+              <!-- HÌNH ẢNH 3: Thành Nhà Mạc -->
+              <img
+                src="images/thanh-nha-mac.png"
+                alt="Thành Nhà Mạc - cổng thành bằng đá cổ kính với tường thành rêu phong, vươn lên giữa vườn cây cổ thụ xanh mướt dưới bầu trời kịch tính"
+                class="ditich-card-img"
+                width="600"
+                height="280"
+              >
+            </div>
+            <div class="ditich-card-content">
+              <span class="ditich-card-tag">Di tích lịch sử</span>
+              <h3>Thành Nhà Mạc</h3>
+              <p>
+                Thành Nhà Mạc là tòa thành cổ được xây dựng vào thế kỷ XVI (khoảng năm 1592) dưới triều đại nhà Mạc,
+                nằm trên đỉnh núi Phja Phủ, phường Tam Thanh. Thành được xây bằng đá phiến, tường thành dày hơn 1 mét,
+                cao gần 5 mét, bao quanh một diện tích khá rộng trên đỉnh núi.
+              </p>
+              <p>
+                Đây là căn cứ phòng thủ quân sự quan trọng của nhà Mạc trong giai đoạn cuối triều đại, khi phải rút
+                lên vùng biên giới Lạng Sơn. Dù trải qua hơn 400 năm phong sương, những đoạn tường thành còn sót lại
+                vẫn là minh chứng sống động cho tài năng xây dựng quân sự của cha ông.
+              </p>
+              <div class="ditich-card-meta">
+                <span>📍 Phường Tam Thanh, TP. Lạng Sơn</span>
+                <span>🕐 Thế kỷ XVI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DI TÍCH 3: Nàng Tô Thị -->
+          <article class="ditich-card reveal">
+            <div class="ditich-card-img-wrap">
+              <!-- HÌNH ẢNH 4: Nàng Tô Thị -->
+              <img
+                src="images/nang-to-thi.png"
+                alt="Hòn Vọng Phu (Nàng Tô Thị) - khối đá tự nhiên hình người phụ nữ bồng con trên đỉnh núi, in bóng giữa hoàng hôn đỏ rực đầy cảm xúc"
+                class="ditich-card-img"
+                width="600"
+                height="280"
+              >
+            </div>
+            <div class="ditich-card-content">
+              <span class="ditich-card-tag">Danh thắng huyền thoại</span>
+              <h3>Nàng Tô Thị — Hòn Vọng Phu</h3>
+              <p>
+                Hòn Vọng Phu hay còn gọi là Nàng Tô Thị, là khối đá tự nhiên trên đỉnh núi Tô Thị
+                (phường Tam Thanh), có hình dáng giống người phụ nữ bồng con đứng chờ chồng. Truyền thuyết kể rằng,
+                nàng Tô Thị ngày ngày bồng con lên đỉnh núi ngóng chồng đi chinh chiến, chờ mãi hóa thành đá.
+              </p>
+              <p>
+                Câu chuyện về lòng thủy chung và sự chờ đợi vô vọng ấy đã đi vào ca dao tục ngữ Việt Nam,
+                trở thành biểu tượng bất diệt cho tình yêu và sự hy sinh của người phụ nữ Việt.
+                Nàng Tô Thị là một trong những hình ảnh văn hóa đặc trưng nhất của Xứ Lạng.
+              </p>
+              <div class="ditich-card-meta">
+                <span>📍 Phường Tam Thanh, TP. Lạng Sơn</span>
+                <span>🏔️ Truyền thuyết ngàn năm</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DI TÍCH 4: Động Nhị Thanh -->
+          <article class="ditich-card reveal">
+            <div class="ditich-card-img-wrap">
+              <!-- HÌNH ẢNH 5: Động Nhị Thanh -->
+              <img
+                src="images/dong-nhi-thanh.png"
+                alt="Động Nhị Thanh - hang động đá vôi tuyệt đẹp với nhũ đá lấp lánh muôn sắc, hồ nước trong xanh phản chiếu ánh sáng huyền ảo"
+                class="ditich-card-img"
+                width="600"
+                height="280"
+              >
+            </div>
+            <div class="ditich-card-content">
+              <span class="ditich-card-tag">Danh thắng tự nhiên</span>
+              <h3>Động Nhị Thanh</h3>
+              <p>
+                Nằm liền kề với Chùa Tam Thanh, Động Nhị Thanh là một hang động đá vôi tự nhiên tuyệt đẹp
+                dài khoảng 500 mét xuyên qua lòng núi. Hang động sở hữu hệ thống nhũ đá, thạch nhũ muôn hình
+                vạn trạng, lấp lánh dưới ánh đèn như một cung điện ngầm trong lòng đất.
+              </p>
+              <p>
+                Đặc biệt, bên trong động có một dòng suối ngầm chảy quanh năm, tạo nên những hồ nước
+                trong xanh phản chiếu ánh sáng huyền ảo. Ngô Thì Sĩ — danh sĩ thời Lê — từng ca ngợi
+                nơi đây là "Đệ nhất động" với bài thơ khắc trên vách đá, lưu truyền đến ngày nay.
+              </p>
+              <div class="ditich-card-meta">
+                <span>📍 Phường Tam Thanh, TP. Lạng Sơn</span>
+                <span>📏 Dài ~500m</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CHỢ KỲ LỪA - SECTION BỔ SUNG -->
+    <section class="section section-warm" aria-labelledby="kylua-heading">
+      <div class="container">
+        <div class="featured-ditich">
+          <div class="featured-ditich-content reveal-left">
+            <span class="section-label">Di sản văn hóa phi vật thể</span>
+            <h2 id="kylua-heading">Chợ Kỳ Lừa — Phiên Chợ Biên Cương</h2>
+            <p class="accent-text">"Đồng Đăng có phố Kỳ Lừa..."</p>
+            <p>
+              Chợ Kỳ Lừa (hay Phố Kỳ Lừa) là khu chợ truyền thống nổi tiếng nhất Xứ Lạng, tọa lạc bên bờ
+              sông Kỳ Cùng. Từ hàng trăm năm trước, nơi đây đã là trung tâm giao thương sầm uất giữa vùng biên giới
+              Việt — Trung, nơi hội tụ hàng hóa và văn hóa của các dân tộc Tày, Nùng, Dao, Kinh.
+            </p>
+            <p>
+              Ngày nay, Chợ Kỳ Lừa vẫn giữ nguyên nét đẹp truyền thống với những gian hàng bán đặc sản địa phương:
+              vịt quay Lạng Sơn, khâu nhục, phở chua, hoa hồi, và nhiều sản vật núi rừng quý hiếm khác.
+              Đến đây, du khách không chỉ mua sắm mà còn được hòa mình vào bầu không khí náo nhiệt, đầy sắc màu
+              của phiên chợ biên cương.
+            </p>
+          </div>
+          <div class="featured-ditich-img reveal-right">
+            <!-- HÌNH ẢNH 6: Chợ Kỳ Lừa -->
+            <img
+              src="images/cho-dong-dang.png"
+              alt="Chợ Kỳ Lừa sầm uất với các gian hàng đầy sắc màu, người dân tộc thiểu số trong trang phục truyền thống đi chợ phiên"
+              class="styled-img"
+              width="600"
+              height="400"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRÍCH DẪN -->
+    <section class="section section-dark" aria-label="Trích dẫn lịch sử">
+      <div class="container">
+        <div class="quote-section reveal-fade">
+          <blockquote>
+            <p class="quote-text" style="color: var(--color-text-on-dark);">
+              "Chi Lăng là nơi hiểm yếu bậc nhất trên đường từ Ải Nam Quan về Thăng Long.
+              Ai làm chủ Chi Lăng, người ấy nắm giữ vận mệnh đất nước."
+            </p>
+            <cite class="quote-author">— Sử liệu Đại Việt —</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>Di Tích Văn Hóa Lạng Sơn</h3>
+        <p>
+          Website quảng bá du lịch di sản văn hóa tỉnh Lạng Sơn — nơi lưu giữ hồn thiêng
+          đất Việt nơi biên cương phía Bắc Tổ quốc.
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4>Liên Kết</h4>
+        <ul>
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="ditich.html">Di Tích Lịch Sử</a></li>
+          <li><a href="lienhe.html">Hướng Dẫn &amp; Liên Hệ</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Liên Hệ</h4>
+        <p>📍 Thành phố Lạng Sơn, tỉnh Lạng Sơn</p>
+        <p>📞 (0205) 3.871.XXX</p>
+        <p>✉️ dulich@langson.gov.vn</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Di Tích Văn Hóa Lạng Sơn. Thiết kế phục vụ mục đích học tập và quảng bá du lịch.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Reveal + Liquid Glass Script -->
+  <script>
+    (function () {
+      var revealEls = document.querySelectorAll('.reveal, .reveal-fade, .reveal-left, .reveal-right');
+      if (revealEls.length) {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+        revealEls.forEach(function (el) { observer.observe(el); });
+      }
+      var header = document.querySelector('.site-header');
+      var glow = document.querySelector('.header-glow');
+      if (header && glow) {
+        header.addEventListener('mousemove', function (e) {
+          var rect = header.getBoundingClientRect();
+          glow.style.left = (e.clientX - rect.left) + 'px';
+          glow.style.top = (e.clientY - rect.top) + 'px';
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
