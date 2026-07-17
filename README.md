@@ -1,70 +1,164 @@
-# 🏛️ Website Giới Thiệu Di Tích Lịch Sử Văn Hóa Lạng Sơn
+# 🏛️ Di Tích Văn Hóa Lạng Sơn — Website Quảng Bá Di Sản
 
-Chào mừng bạn đến với dự án website quảng bá và giới thiệu các di tích lịch sử, danh lam thắng cảnh nổi tiếng của vùng đất biên cương **Lạng Sơn** (Ải Chi Lăng, Chùa Tam Thanh, Thành Nhà Mạc, Nàng Tô Thị, Động Nhị Thanh, Chợ Kỳ Lừa). 
+> *"Đồng Đăng có phố Kỳ Lừa, có nàng Tô Thị, có chùa Tam Thanh."*
+> — Ca dao Việt Nam
 
-Website được thiết kế với giao diện hiện đại, sang trọng, mang phong cách thơ mộng cổ kính pha lẫn các công nghệ Front-end tiên tiến nhất, đáp ứng các tiêu chuẩn nghiêm ngặt về kỹ thuật lập trình và khả năng tiếp cận (Accessibility).
+Website giới thiệu và quảng bá các **di tích lịch sử, danh lam thắng cảnh** nổi tiếng của vùng đất biên cương **Lạng Sơn** — nơi thiên nhiên kỳ vĩ giao hòa cùng bề dày lịch sử ngàn năm dựng nước và giữ nước.
 
----
-
-## ✨ Điểm Nổi Bật & Tính Năng Công Nghệ
-
-### 1. 💧 Liquid Glass Navbar (Thanh Điều Hướng Kính Lỏng)
-*   **Hiệu ứng Thủy Tinh Lỏng (Glassmorphism cao cấp):** Sử dụng các thuộc tính `backdrop-filter: blur(28px)`, `rgba()` trong suốt và viền phản xạ ánh sáng tinh tế tạo cảm giác chiều sâu như kính.
-*   **Hiệu ứng Ánh Sáng Theo Chuột (Mouse-Following Glow):** Sử dụng JavaScript bắt tọa độ chuột (`mousemove`) để di chuyển một vùng hào quang sáng mượt mà (`header-glow`) chạy theo con trỏ chuột của người dùng trên thanh điều hướng.
-*   **Active Tab dạng Pill phát sáng:** Liên kết của trang hiện tại tự động chuyển thành dạng thẻ bo tròn (pill-style) rực rỡ với dải màu gradient vàng gold.
-
-### 2. 🌀 Scroll Reveal Animations (Hiệu Ứng Hiện Lên Từ Từ)
-*   **Cuộn tới đâu, hiện tới đó:** Khi người dùng vuốt màn hình xuống, các khối nội dung chính sẽ tự động dịch chuyển và hiện lên nhẹ nhàng nhờ sự kết hợp giữa **Intersection Observer API** và CSS Keyframes (`revealUp`, `revealFadeIn`, `revealLeft`, `revealRight`).
-*   **Staggered Delay:** Các danh sách di tích hoặc mẹo du lịch được thiết lập thời gian trễ tăng dần (`reveal-stagger`), giúp các phần tử lần lượt xuất hiện tạo nhịp điệu trực quan sinh động.
-*   **Tối ưu hóa hiệu năng:** Hỗ trợ tính năng `prefers-reduced-motion` giúp tự động tắt hiệu ứng chuyển động nếu người dùng cấu hình hệ điều hành ưu tiên giảm tải hoạt họa (tránh gây chóng mặt hoặc giật lag trên thiết bị yếu).
-
-### 3. ♿ Tiêu Chuẩn Tiếp Cận WAVE & WCAG
-*   **Skip Link (Liên kết bỏ qua):** Tích hợp đường dẫn ẩn ở đầu trang giúp người dùng sử dụng phím `Tab` để di chuyển nhanh tới nội dung chính mà không cần lướt qua Menu.
-*   **Độ tương phản màu sắc cao:** Màu chữ và màu nền được tính toán kỹ lưỡng theo thang chuẩn WCAG giúp người dùng thị lực kém dễ dàng đọc thông tin.
-*   **Semantic HTML5:** Toàn bộ cấu trúc được phân chia rành mạch bằng các thẻ ngữ nghĩa: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
-*   **Thuộc tính Alt đầy đủ:** Tất cả hình ảnh đều có mô tả chi tiết giúp các công cụ đọc màn hình (Screen Readers) hoạt động chuẩn xác.
+Dự án được xây dựng hoàn toàn bằng **HTML · CSS · JavaScript thuần** (Vanilla), không sử dụng bất kỳ framework hay thư viện ngoài nào.
 
 ---
 
-## 📁 Cấu Trúc Thư Mục Dự Án
+## 📸 Các Di Tích Được Giới Thiệu
+
+| # | Di tích | Loại hình | Vị trí |
+|---|---------|-----------|--------|
+| 1 | **Ải Chi Lăng** | Di tích Quốc gia đặc biệt | Huyện Chi Lăng |
+| 2 | **Chùa Tam Thanh** | Di tích Quốc gia | Phường Tam Thanh, TP. Lạng Sơn |
+| 3 | **Thành Nhà Mạc** | Di tích lịch sử | Phường Tam Thanh, TP. Lạng Sơn |
+| 4 | **Nàng Tô Thị** (Hòn Vọng Phu) | Danh thắng huyền thoại | Phường Tam Thanh, TP. Lạng Sơn |
+| 5 | **Động Nhị Thanh** | Danh thắng tự nhiên | Phường Tam Thanh, TP. Lạng Sơn |
+| 6 | **Chợ Kỳ Lừa** | Di sản văn hóa phi vật thể | TP. Lạng Sơn |
+
+---
+
+## ✨ Tính Năng Nổi Bật
+
+### 🔮 Liquid Glass Navbar
+- Hiệu ứng **Glassmorphism** cao cấp với `backdrop-filter: blur(28px)` và lớp phủ rgba trong suốt
+- **Ánh sáng theo chuột** (Mouse-Following Glow) — JavaScript bắt tọa độ `mousemove` tạo vùng hào quang mượt mà trên header
+- Active Tab dạng **pill phát sáng** với gradient vàng gold
+
+### 🌊 Scroll Reveal Animations
+- Hiệu ứng hiện lên từ từ khi cuộn trang nhờ **Intersection Observer API**
+- 4 kiểu animation: `revealUp`, `revealFadeIn`, `revealLeft`, `revealRight`
+- **Staggered Delay** — các phần tử xuất hiện lần lượt tạo nhịp điệu sinh động
+- Tự động tắt animation nếu người dùng bật `prefers-reduced-motion`
+
+### 🖼️ Interactive Photo Gallery
+- Hàm `upDate(previewPic)` — hiển thị ảnh preview khi hover
+- Hàm `unDo()` — khôi phục trạng thái mặc định khi rời chuột
+- **Event Delegation** — 1 listener duy nhất trên `document`, tự động hoạt động với mọi số lượng ảnh
+
+### ♿ Accessibility (WCAG)
+- **Skip Link** — phím Tab nhảy thẳng tới nội dung chính
+- **Semantic HTML5** — `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- **Alt text đầy đủ** — mô tả chi tiết cho mọi hình ảnh
+- **ARIA labels** — `aria-label`, `aria-labelledby`, `aria-hidden` trên các phần tử tương tác
+- **Độ tương phản cao** — tuân thủ chuẩn WCAG AA
+
+### 📱 Responsive Design
+- Bố cục **CSS Grid** 2 cột cho danh sách di tích
+- **Flexbox** cho header, footer và các thành phần linh hoạt
+- Tương thích mọi thiết bị: desktop, tablet, mobile
+
+---
+
+## 📁 Cấu Trúc Dự Án
 
 ```text
 DiticvanhoaLS/
-├── images/                   # Thư mục chứa hình ảnh chất lượng cao
-│   ├── langson-panorama.png  # Ảnh toàn cảnh anh hùng của Lạng Sơn
-│   ├── ai-chi-lang.png       # Di tích Quốc gia đặc biệt Ải Chi Lăng
-│   ├── chua-tam-thanh.png    # Chùa cổ Tam Thanh trong hang đá vôi
-│   ├── thanh-nha-mac.png     # Thành đá cổ kính triều nhà Mạc
-│   ├── nang-to-thi.png       # Tượng đá Tô Thị ngóng chồng huyền thoại
-│   ├── dong-nhi-thanh.png    # Động Nhị Thanh - danh thắng kỳ vĩ
-│   ├── cho-dong-dang.png     # Không khí sầm uất tại phiên chợ vùng cao
-│   └── langson-contact.png   # Hình ảnh minh họa trang Liên hệ
-├── index.html                # Trang chủ - Giới thiệu tổng quan & Bản sắc
-├── ditich.html               # Trang chi tiết - 5 di tích và danh thắng trọng điểm
-├── lienhe.html               # Trang cẩm nang du lịch, biểu mẫu & Bản đồ vị trí
-├── style.css                 # Tệp CSS dùng chung (Design System & Animations)
-└── README.md                 # Tệp hướng dẫn này
+│
+├── images/                     # Hình ảnh chất lượng cao
+│   ├── langson-panorama.png    # Toàn cảnh Lạng Sơn (Hero)
+│   ├── ai-chi-lang.png         # Ải Chi Lăng
+│   ├── chua-tam-thanh.png      # Chùa Tam Thanh
+│   ├── thanh-nha-mac.png       # Thành Nhà Mạc
+│   ├── nang-to-thi.png         # Nàng Tô Thị
+│   ├── dong-nhi-thanh.png      # Động Nhị Thanh
+│   ├── cho-dong-dang.png       # Chợ Kỳ Lừa
+│   └── langson-contact.png     # Minh họa trang Liên hệ
+│
+├── index.html                  # Trang Chủ — giới thiệu tổng quan
+├── ditich.html                 # Trang Di Tích — chi tiết 6 di tích
+├── lienhe.html                 # Trang Liên Hệ — cẩm nang, form, bản đồ
+├── style.css                   # CSS Design System (1463 dòng)
+├── script.js                   # JavaScript — Interactive Photo Gallery
+└── README.md                   # Tài liệu hướng dẫn (file này)
 ```
+
+---
+
+## 🎨 Design System
+
+### Bảng Màu
+
+| Token | Mã màu | Ý nghĩa |
+|-------|--------|---------|
+| `--color-primary` | `#1a3a2a` | Xanh rêu cổ kính — núi rừng Đông Bắc |
+| `--color-primary-light` | `#2d5e42` | Xanh lá nhạt — phối nền |
+| `--color-accent` | `#c9956b` | Nâu đồng ấm áp — điểm nhấn |
+| `--color-gold` | `#d4a855` | Vàng gold ánh kim — hào khí lịch sử |
+| `--color-gold-light` | `#f0d48a` | Vàng nhạt — hover & highlight |
+| `--color-bg` | `#faf8f5` | Kem nhạt — nền sáng |
+| `--color-bg-dark` | `#111a14` | Xanh đen — nền tối |
+
+### Typography
+
+| Vai trò | Font | Phong cách |
+|---------|------|------------|
+| Tiêu đề | `Playfair Display` | Serif cổ điển, sang trọng |
+| Nội dung | `Inter` | Sans-serif hiện đại, dễ đọc |
+| Chữ nghệ thuật | `Dancing Script` | Script bay bổng, chất thơ |
 
 ---
 
 ## 🛠️ Hướng Dẫn Khởi Chạy
 
-Vì dự án sử dụng hoàn toàn mã nguồn gốc (Vanilla HTML/CSS/JS), bạn không cần cài đặt bất kỳ thư viện hay công cụ phức tạp nào:
+### Cách 1 — Mở trực tiếp
+Nhấp đúp vào `index.html` → mở trên trình duyệt.
 
-1.  **Cách chạy trực tiếp:** Tải thư mục dự án về máy tính của bạn, nhấp đúp chuột vào file `index.html` để mở trên trình duyệt.
-2.  **Cách chạy môi trường Dev:** Nếu bạn sử dụng VS Code, khuyên dùng extension **Live Server** để mở dự án dưới dạng máy chủ local ảo, giúp các hiệu ứng mượt mà và cập nhật thay đổi tức thì khi chỉnh sửa code.
+### Cách 2 — Live Server (khuyên dùng)
+1. Cài extension **Live Server** trong VS Code
+2. Chuột phải vào `index.html` → **Open with Live Server**
+3. Trình duyệt tự động mở và cập nhật khi chỉnh sửa code
+
+> **Không cần** cài đặt Node.js, npm, hay bất kỳ thư viện nào.
+
+---
+
+## 📄 Các Trang
+
+### 🏠 Trang Chủ (`index.html`)
+- Hero section với ảnh toàn cảnh Lạng Sơn
+- Giới thiệu tổng quan vùng đất biên cương
+- Số liệu nổi bật (600+ năm, 130+ di tích, 7 di tích Quốc gia đặc biệt)
+- 5 điểm đến nổi bật dạng card
+- Timeline lịch sử từ năm 981 → 1979
+- Văn hóa & con người (Hát Then, Lễ hội Lồng Tồng, Ẩm thực, Trang phục)
+- Giới thiệu Chợ Kỳ Lừa
+
+### 🏛️ Trang Di Tích (`ditich.html`)
+- Hero section riêng
+- Phần nổi bật: Ải Chi Lăng (featured layout)
+- Grid 2 cột: Chùa Tam Thanh, Thành Nhà Mạc, Nàng Tô Thị, Động Nhị Thanh
+- Phần bổ sung: Chợ Kỳ Lừa
+- Trích dẫn sử liệu Đại Việt
+
+### 📞 Trang Liên Hệ (`lienhe.html`)
+- 6 mẹo du lịch hữu ích (thời điểm, di chuyển, ẩm thực, hành trang, chụp ảnh, lưu trú)
+- Thông tin liên hệ Trung tâm Du lịch Lạng Sơn
+- Form gửi thắc mắc (họ tên, email, SĐT, chủ đề, nội dung)
+- Bản đồ Google Maps nhúng
 
 ---
 
-## 🎨 Design Tokens (Bảng màu & Kiểu chữ)
+## 🧰 Công Nghệ Sử Dụng
 
-*   **Màu chủ đạo (Primary):** Xanh rêu cổ kính (`#1a3a2a`, `#2d5e42`, `#0d1f16`) tượng trưng cho núi rừng Đông Bắc hiểm trở nhưng đầy chất thơ.
-*   **Màu điểm nhấn (Accent/Gold):** Màu vàng Gold ánh kim (`#d4a855`, `#f0d48a`) tượng trưng cho hào khí lịch sử chói lọi và nét sang trọng tôn nghiêm của di tích tâm linh.
-*   **Font chữ:**
-    *   *Tiêu đề chính:* `Playfair Display` (Phông chữ có chân sang trọng, cổ điển tạo chiều sâu lịch sử).
-    *   *Nội dung:* `Inter` (Phông chữ không chân hiện đại, tối giản giúp đọc thông tin cực kỳ rõ nét).
-    *   *Chữ nghệ thuật:* `Dancing Script` (Tạo nét chữ mềm mại, bay bổng chất thơ).
+| Công nghệ | Phiên bản | Mục đích |
+|------------|-----------|----------|
+| HTML5 | — | Cấu trúc ngữ nghĩa |
+| CSS3 | — | Giao diện, animation, responsive |
+| JavaScript | ES6+ | Tương tác, Gallery, Scroll Reveal |
+| Google Fonts | — | Playfair Display, Inter, Dancing Script |
+| Google Maps Embed | — | Bản đồ vị trí trang Liên hệ |
 
 ---
-*Chúc bạn có những trải nghiệm tuyệt vời cùng không gian di sản văn hóa Xứ Lạng!*
+
+## 📜 Giấy Phép
+
+Dự án phục vụ mục đích **học tập và quảng bá du lịch**. Hình ảnh được tạo bằng AI cho mục đích minh họa.
+
+---
+
+*© 2026 Di Tích Văn Hóa Lạng Sơn. Thiết kế với ❤️ cho vùng đất Xứ Lạng.*
